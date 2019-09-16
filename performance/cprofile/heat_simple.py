@@ -34,7 +34,7 @@ def write_field(field, step):
     plt.gca().clear()
     plt.imshow(field)
     plt.axis('off')
-    plt.savefig('heat_{0:03d}.png'.format(step))
+    #plt.savefig('heat_{0:03d}.png'.format(step))
 
 def iterate(field, field0, timesteps, image_interval):
     for m in range(1, timesteps+1):
